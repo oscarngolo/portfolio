@@ -44,8 +44,12 @@ h1{
 .description{
   clear:left;
 }
-#coding{
+.cityhall{
   float:right;
+}
+#coding{
+  position:relative;
+  float: left;
 }
 h2{
   font-size: 25px;
@@ -58,4 +62,10 @@ p{
 }
 li{
   font-size: 20px
+}
+.interests{
+  clear:both;
+}
+.basketball{
+  float:right;
 }
