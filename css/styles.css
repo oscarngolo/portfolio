@@ -35,3 +35,15 @@ h1{
   font-size: 36px;
   text-decoration: underline;
 }
+.home{
+  clear: right;
+}
+#work{
+  float:right;
+}
+.description{
+  clear:left;
+}
+#coding{
+  float:right;
+}
