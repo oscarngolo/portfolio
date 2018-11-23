@@ -34,6 +34,7 @@ h1{
   text-align: center;
   font-size: 36px;
   text-decoration: underline;
+  text-shadow: 1px 0.9px;
 }
 .home{
   clear: right;
@@ -68,4 +69,7 @@ li{
 }
 .basketball{
   float:right;
+  margin-bottom: 30px;
+  right: 50%
+  position: relative;
 }
