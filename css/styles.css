@@ -2,7 +2,7 @@ body{
   font-family:sans-serif;
   background-color:#E6B9AF;
 }
-img{
+.photo{
   float:left;
 }
 nav ul{
@@ -38,25 +38,33 @@ h1{
 }
 .home{
   clear: right;
+  margin-bottom: 30px;
+  border: 10px solid green;
+  border-radius: 6px;
+
 }
 #work{
   float:right;
 }
 .description{
   clear:left;
+  background-color: red;
+  border-radius: 10px;
+  text-align: justify;
+  margin-top:50px;
+  margin-bottom: 30px
+  box-shadow: 10px;
 }
 .cityhall{
   float:right;
 }
-#coding{
-  position:relative;
-  float: left;
-}
+
 h2{
   font-size: 25px;
-  color:blue;
+  color:cyan;
   text-shadow: 0.9px 0.8px;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 p{
   font-size: 20px;
@@ -65,11 +73,19 @@ li{
   font-size: 20px
 }
 .interests{
-  clear:both;
+  clear: right;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  margin-top: 50px;
+  box-shadow: 0.8px 0.8px;
 }
 .basketball{
-  float:right;
+  float:left;
   margin-bottom: 30px;
   right: 50%
   position: relative;
+}
+img{
+  border-radius: 6px;
 }
