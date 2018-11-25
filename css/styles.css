@@ -1,6 +1,6 @@
 body{
   font-family:sans-serif;
-  background-color:#E6B9AF;
+  background-color:#888;
 }
 .photo{
   float:left;
@@ -12,35 +12,38 @@ nav ul{
 nav ul li{
   display: inline;
   text-align:right;
-  background-color: #E6D0CB;
   padding:5px;
   margin:5px;
-  border-radius: 5px;
-  text-shadow: 0.9px 0.5px;
-  border: 1px solid white;
   font-size: 20px
 
 }
 nav ul li a{
   text-decoration: none;
-  color: red;
+  color: blue;
 }
 nav ul li a:hover{
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  text-shadow: 0.9px 0.5px;
+  background-color: #E6D0CB;
 }
 h1{
   text-transform: uppercase;
-  color: blue;
+  color: #000;
   text-align: center;
-  font-size: 36px;
+  font-size: 46px;
   text-decoration: underline;
   text-shadow: 1px 0.9px;
+  justify-content: space-between;
+  font-weight: bolder;
 }
 .home{
   clear: right;
   margin-bottom: 30px;
-  border: 10px solid green;
+  box-shadow: 1px 1px;
   border-radius: 6px;
+  background-color: #00FF00;
 
 }
 #work{
@@ -48,23 +51,28 @@ h1{
 }
 .description{
   clear:left;
-  background-color: red;
+  background-color: lightsalmon;
   border-radius: 10px;
   text-align: justify;
   margin-top:50px;
   margin-bottom: 30px
-  box-shadow: 10px;
+  box-shadow: 1px 1px;
 }
 .cityhall{
   float:right;
 }
 
 h2{
-  font-size: 25px;
-  color:cyan;
+  font-size: 35px;
+  color:#000;
   text-shadow: 0.9px 0.8px;
   text-transform: uppercase;
   text-decoration: underline;
+  justify-content: space-between;
+  font-weight: bolder;
+}
+span{
+  color: red;
 }
 p{
   font-size: 20px;
@@ -74,12 +82,13 @@ li{
 }
 .interests{
   clear: right;
-  background-color: green;
+  background-color: #00FF00;
   border-radius: 10px;
-  color: white;
+  color: black;
   margin-top: 50px;
-  box-shadow: 0.8px 0.8px;
+  box-shadow: 1px 1px;
 }
+
 .basketball{
   float:left;
   margin-bottom: 30px;
