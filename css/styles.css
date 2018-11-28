@@ -12,8 +12,8 @@ nav ul{
 nav ul li{
   display: inline;
   text-align:right;
-  padding:5px;
-  margin:5px;
+  padding:10px;
+  margin:10px;
   font-size: 20px
 
 }
@@ -27,6 +27,8 @@ nav ul li a:hover{
   border-radius: 5px;
   text-shadow: 0.9px 0.5px;
   background-color: #E6D0CB;
+  padding:10px;
+  margin: 10px;
 }
 h1{
   text-transform: uppercase;
